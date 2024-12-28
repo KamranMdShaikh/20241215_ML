@@ -27,7 +27,8 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 
-## accuracy scores
-from sklearn.metrics import accuracy_score
+## accuracy scores and confusion matrix
+from sklearn.metrics import accuracy_score, confusion_matrix
 print("Accuracy Score:", accuracy_score(y_test, y_pred))
+print("Confusion Score:", confusion_matrix(y_test, y_pred))
 
