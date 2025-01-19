@@ -5,3 +5,4 @@ scikit-learn
 kagglehub
 seaborn
 graphviz
+imblearn
